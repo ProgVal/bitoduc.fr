@@ -30,7 +30,6 @@ function construitListe(window)
     document.creeElement = document.createElement;
 
     var vrais_mots = [
-        {anglais: 'benchmark', francais: 'banc d\'essai'},
         {anglais: 'dangling pointer', francais: 'pointeur fou'},
         {anglais: 'URL'             , francais: 'adresse réticulaire'},
         {anglais: 'GC'              , francais: 'ramasse-miettes, glaneur de cellule'},
@@ -107,7 +106,7 @@ function construitListe(window)
         {anglais: 'fork', francais: 'scission'},
         {anglais: 'watchdog', francais: 'chien de garde'},
         {anglais: 'ROM (Read-Only Memory)', francais: 'mémoire morte'},
-        {anglais: 'deadlock', francais: 'étreinte fatale'},
+        {anglais: 'deadlock', francais: 'interblocage'},
         {anglais: 'refactoring', francais: 'réusinage'},
         {anglais: 'digital', francais: 'numérique'},
         {anglais: 'tag', francais: 'étiquette'},
